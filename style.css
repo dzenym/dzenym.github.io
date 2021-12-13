@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+/*.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    justify-content: end;
+    justify-items: end;
+}*/
+
+.menu {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+.menu .left img {
+    width: 50%;
+}
+
+.right {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    justify-content: center;
+    vertical-align: bottom;
+}
+
+.right a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding-top: 4%;
+}
+
+.block {
+    text-align: center;
+}
+
+.block h1, .block input, .button {
+    margin: 1%;
+}
+
+.button {
+    background-color: #f1c40f;
+    width: 150px;
+    margin: auto;
+    border: 0.5px solid black;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 0fr 3fr 1fr 1fr;
+}
+
+.grid desc {
+    grid-column: 3/5;
+    text-align: justify;
+}
+
+.box div {
+    text-align: justify;
+}
+
+i {
+    width: 100px;
+    color: darkorange;
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.videoContainer iframe{
+    max-width: 560px;
+    width: 100%;
+    padding-top: 100px;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pricing{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.product .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.product h2 {
+    margin-top: 15px;
+}
+
+.product ol {
+    margin: 15px 0;
+}
+
+ol{
+display: block;
+list-style-type: decimal;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+}
+
+li {
+    padding: 5px 0;
+    list-style: none;
+}
+
+.product button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+}
+
+/*.footer{
+    display: block;
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+footer li {
+    padding: 0 10px;
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}*/
+
+footer{
+    background-color: #ddd;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: disc;
+    margin-bottom:10px;
+    background-color: #ddd;
+
+}
+
+footer li{
+    padding: 0 10px;
+    list-style: none;
+    background-color: #ddd;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    background-color: #ddd;
+}
+
+footer span {
+
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+    background-color: #ddd;
+    font-family: sans-serif;
+    font-size: 14.4px;
+    margin: 5px 0px 0px;
+}
